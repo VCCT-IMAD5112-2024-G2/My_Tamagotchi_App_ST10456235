@@ -20,3 +20,4 @@ The Pluto Play app is built using Kotlin within Android Studio. The code include
 
 Thank you for choosing Pluto Play!
 We hope you and your child enjoy caring for Pluto and exploring the wonderful world of virtual pet ownership. If you have any questions or feedback, please don't hesitate to reach out. Have fun!
+video: https://1drv.ms/v/c/759aa01d7ff97c0d/EYvi4lp3k_NJrikh_cFpbCABEGOP5v_CsWzXGJiqdN0RQw?e=2qpGWp
