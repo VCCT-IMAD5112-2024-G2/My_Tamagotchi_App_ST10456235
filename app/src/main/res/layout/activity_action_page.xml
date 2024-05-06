@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6D45A"
+    android:orientation="vertical"
+    tools:context=".actionPage">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/healthLevel"
+            android:layout_width="138dp"
+            android:layout_height="match_parent"
+            android:text="Health Level: "
+            android:textColor="#000000" />
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="73dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="401dp"
+        android:layout_gravity="center|center_horizontal"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/pet_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/img_4"
+            app:srcCompat="@drawable/img_3" />
+    </FrameLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="92dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="106dp"
+            android:layout_height="92dp"
+            android:text="PLAY" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/feed_button"
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="FEED" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="78dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/clean_button"
+            android:layout_width="70dp"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:text="CLEAN" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="17dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/playLevel"
+            android:layout_width="90dp"
+            android:layout_height="53dp"
+            android:text="play level:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="54dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/hungerLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:text="hunger level:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/cleanLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:text="clean level:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>
